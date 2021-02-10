@@ -1,0 +1,47 @@
+<%= form_with(model: order) do |form| %>
+  <% if order.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(order.errors.count, "error") %> prohibited this order from being saved:</h2>
+
+      <ul>
+        <% order.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= form.label :order_no %>
+    <%= form.number_field :order_no,
+    class:"form-control" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :order_date %>
+    <%= form.date_select :order_date,
+    class:"form-control" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :order_status %>
+    <%= form.text_field :order_status,
+    class:"form-control" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :billingaddr %>
+    <%= form.text_field :billingaddr,
+    class:"form-control" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :shippingaddr %>
+    <%= form.text_field :shippingaddr,
+    class:"form-control" %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit class:'btn btn-dark' %>
+  </div>
+<% end %>

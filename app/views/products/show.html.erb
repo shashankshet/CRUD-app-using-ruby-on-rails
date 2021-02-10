@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sku:</strong>
+  <%= @product.SKU %>
+</p>
+
+<p>
+  <strong>Mrp:</strong>
+  <%= @product.MRP %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @product.quantity %>
+</p>
+
+<p>
+  <strong>Discount:</strong>
+  <%= @product.discount %>
+</p>
+
+<p>
+  <strong>Netprice:</strong>
+  <%= @product.netPrice %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product),class:'btn btn-dark' %>
+<%= link_to 'Back', products_path,class:'btn btn-dark' %>

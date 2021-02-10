@@ -1,0 +1,11 @@
+=============================STEPS TO RUN THE PROJECT======================
+
+1. Extract the zip folder attached
+2. Using terminal goto the project directory,  
+   the path should look like .../koskii-assignment/customer
+3. Type the command "rails s"
+4. The server will boot after running the above command
+5. Go to any of the browser and type "localhosr:3000" in the url tab
+6. The webapp is now accesible
+
+============================================================================
