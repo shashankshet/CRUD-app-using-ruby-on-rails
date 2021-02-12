@@ -1,24 +1,13 @@
-# README
+# SIMPLE CRUD APP USING RUBY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello my name is Shashank.
 
-Things you may want to cover:
+This is my ruby on rails crud web app
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+STEPS TO RUN
+1. Extract the zip folder attached
+2. Using terminal goto the project directory
+3. Type the command "rails s"
+4. The server will boot after running the above command
+5. Go to any of the browser and type "localhosr:3000" in the url tab
+6. The webapp is now accesible
