@@ -2,7 +2,7 @@
 
 Hello my name is Shashank.
 
-This is my ruby on rails crud web app
+This is a basic  crud web app developed using ruby on rails.
 
 STEPS TO RUN
 1. Extract the zip folder attached
